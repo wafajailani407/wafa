@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner myNum= new Scanner (System.in);
+        System.out.println("Enter a number: ");
+         int user = myNum.nextInt();
+        int sum=0;
+       for (int i=1; i<=user; i++) {
+           sum=sum+i;
+       }
+      System.out.println("The sum is " + sum);
+    }
+}
